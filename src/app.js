@@ -115,16 +115,3 @@ app.listen(port, () => {
 
 /* mongodb me atleast humko crud operation dekhna hai. creat read upload delete */
 
-const uri =
-  "http://api.openweathermap.org/geo/1.0/direct?q=ranchi&limit=3&appid=4fb0c183445889635485192a601d1929";
-
-fetch(uri)
-  .then((result) => {
-    return result.json();
-  })
-  .then((result) => {
-    console.log(result);
-  })
-  .catch((err) => {});
-
-/* so fetch api works on node as well and it is an experimental global feature */

@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: auto;
+}
+
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  padding: 1rem 2rem;
+  /* margin: 0 2rem; */
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  width: 240px;
+}
+footer {
+  position: relative;
+  /* background: #888; */
+  color: #888;
+  padding: 5px;
+  margin-top: 360px;
+  padding: 16px 0;
+  text-align: center;
+  border-top: 2px solid #eee;
+}
+.weather {
+  display: block;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+label {
+  font-size: 32px;
+}
+.btn {
+  background: #888;
+  border: none;
+  padding: 8px;
+  color: #eee;
+  cursor: pointer;
+}
+/* i have already forgotten all the css properties */

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- ye humko pata nai tha ki this is the absolute path from the root directory 
+  which is ,in this case, the public folder  -->
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- this is the relative path from this file -->
+    <title>weather</title>
+  </head>
+  <body>
+    <h1>{{title}}</h1>
+
+{{adress}}
+
+    {{>navbar}}
+<form action="" method="get">
+  <label for="search" class="weather" >WEATHER</label>
+  <input type="text" name="search" id="name" placeholder="city name">
+  <button type="submit" class="btn">Search</button>
+
+</form>
+    <h3>{{heading}}</h3>
+
+    <p id="location"></p>
+    <p class="forecaste"></p>
+
+     {{>footer}}
+    <script src="/scripts/app.js"></script>
+    <!-- pata nai for some reason script me absolute path auto suggest nai kar raha tha -->
+  </body>
+</html>

@@ -10,6 +10,10 @@ weatheForm.addEventListener("submit", (e) => {
   local.textContent = "Fetching weather...";
   forecaset.textContent = "";
   fetch(`/weather?adress=${location}`)
+    /* so here fetch is fetching from local route */
+
+    /* so agar hum fetch ko http nai denge toh wo local file or folder me
+    dhundenga  */
     .then((result) => {
       result.json().then((data) => {
         if (data.error) {

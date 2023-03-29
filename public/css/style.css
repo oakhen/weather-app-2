@@ -6,6 +6,9 @@ body {
 
 .menu ul {
   display: flex;
+
+  border-bottom: 1px solid #eee;
+  
 }
 .menu ul li {
   padding: 1rem 2rem;

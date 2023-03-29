@@ -9,7 +9,7 @@ weatheForm.addEventListener("submit", (e) => {
   const location = search.value;
   local.textContent = "Fetching weather...";
   forecaset.textContent = "";
-  fetch(`http://localhost:3000/weather?adress=${location}`)
+  fetch(`https://bright-lime-lemming.cyclic.app/weather?adress=${location}`)
     .then((result) => {
       result.json().then((data) => {
         if (data.error) {
